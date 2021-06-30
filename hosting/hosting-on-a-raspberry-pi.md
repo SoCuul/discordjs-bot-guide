@@ -20,7 +20,7 @@ Commands used in the video;
 There has been conflicting information regarding the purge command, a small number of people have claimed it has messed up their Raspbian installation, so please _**USE AT YOUR OWN RISK**_, I cannot be held responsible if it does go wrong, as I encountered no issues running these commands in this order.
 {% endhint %}
 
-`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` - This will download everything required for node to be installed.
+`curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -` - This will download everything required for node to be installed.
 
 `sudo apt-get install -y nodejs` - This will install node for you, the `-y` flag will auto-accept all terms and agreements for you.
 
